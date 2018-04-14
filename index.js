@@ -32,7 +32,7 @@ class Trip {
     store.trips.push(this);
   }
 
-  passenger() {
+  passengers() {
     return store.passengers.find((passenger) => passenger.id === this.passengerId);
   }
 }
